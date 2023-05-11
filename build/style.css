@@ -1,0 +1,108 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html {
+	font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+body {
+	font-family: 'Rounded', sans-serif;
+
+	font-size: 1.4rem;
+	color: #668CBA;
+    background-color: #D2E2FC;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+.container {
+	max-width: 120rem;
+	margin-inline: auto;
+	padding-inline: 1.5rem;
+}
+
+.logo {
+    height: 10vh;
+}
+
+.navbar {
+    background-color: #B1D4FC;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btns_block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.6rem;
+    font-weight: bold;
+    gap: 8rem;
+}
+
+.title {
+    padding-top: 4rem;
+    font-size: 6rem;
+}
+
+.main_img_block {
+    width: 1370px;
+    height: 650px;
+    background-image: url(/assets/Group\ 2.svg);
+    background-repeat: no-repeat;
+}
+
+.main_img_block_second {
+    margin-top: 10rem;
+    width: 1428px;
+    height: 709px;
+    background-image: url(/assets/Group\ 3.svg);
+    background-repeat: no-repeat;
+}
+
+.f-block {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    width: 50rem;
+    padding-left: 8rem;
+}
+
+.t-block {
+    width: 100%;
+}
+
+.second_content {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    width: 100%;
+    height: 100vh;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    font-size: 3.5rem;
+    font-weight: lighter;
+}
+
+.s-block {
+    width: 959px;
+    height: 695px;
+   background-image: url(/assets/eye.png);
+}
+
+.s-content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}

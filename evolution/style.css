@@ -1,0 +1,249 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+    /* 9BC7FB */
+}
+html {
+	font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+body {
+	font-family: 'Rounded', sans-serif;
+	font-size: 1.4rem;
+	color: #668CBA;
+    background-color: #D2E2FC;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+.container {
+	max-width: 120rem;
+	margin-inline: auto;
+	padding-inline: 1.5rem;
+}
+
+.first-dargaonfly {
+    position: absolute;
+    margin-left: 120vh;
+    margin-top: 10vh;
+    animation-name: move_dragonfly;
+	animation-duration: .5s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+.second-dargaonfly {
+    position: absolute;
+    margin-left: 80vh;
+    margin-top: 35vh;
+    animation-name: move_dragonfly;
+	animation-duration: .5s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+@keyframes move_dragonfly {
+    25% {
+        transform: rotate(1deg);
+    }
+    50% {
+        transform: rotate(-1deg);
+    }
+    70% {
+        transform: rotate(0deg);
+    }
+}
+
+.logo {
+    height: 10vh;
+}
+
+.navbar {
+    background-color: #B1D4FC;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btns_block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.6rem;
+    font-weight: bold;
+    gap: 8rem;
+}
+
+.first_content_block {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+
+}
+
+.water {
+    width: 1440px;
+    height: 339px;
+    background-image: url(/assets/Vector\ 2.svg);
+}
+
+.listik1 {
+    position: absolute;
+    margin-top: 80vh;
+    margin-left: 20vh;
+    animation-name: listik_move;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+.listik2 {
+    position: absolute;
+    margin-top: 80vh;
+    margin-left: 120vh;
+    animation-name: listik_move;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+.listik3 {
+    position: absolute;
+    margin-top: 70vh;
+    margin-left: 70vh;
+    animation-name: listik_move;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+	animation-timing-function: linear; 
+}
+
+.listik4 {
+    position: absolute;
+    margin-top: 74vh;
+    margin-left: 45vh;
+    rotate: 1deg;
+    animation-name: listik_move;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+	animation-timing-function: linear; 
+}
+
+.test {
+    position: absolute;
+    margin-top: 100vh;
+    height: 210vh;
+    width: 100%;
+    background-image: url(/assets/Group\ 3\ \(1\).svg);
+    background-size: cover;
+}
+
+.second_content_block {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    z-index: 999;
+    justify-content: center;
+    align-items: center;
+    background-color: #9BC7FB;
+}
+
+.img {
+    width: 803px;
+    height: 757px;
+    background-image: url(/assets/evol.svg);
+    background-repeat: no-repeat;
+}
+
+.img:is(:hover, :focus, :active) {
+    animation-name: move;
+	animation-duration: 25s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+@keyframes move {
+    from {
+        transform: rotate(0);
+    } 
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.third_content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    background-color: #9BC7FB;
+}
+
+.first {
+    margin-top: 20rem;
+    width: 594px;
+    height: 628px;
+    background-image: url(/assets/vodrisl1.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation-name: listik_move;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+.second {
+    margin-top: 20rem;
+    width: 594px;
+    height: 628px;
+    background-image: url(/assets/vodrisl2.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation-name: listik_move;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+.list {
+    width: 40rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    font-size: 3.5rem;
+    font-weight: lighter;
+    color: #DEEAF9;
+}
+
+.title_block {
+    padding-top: 4rem;
+    width: 100%;
+}
+
+.title {
+    font-size: 4.5rem;
+    font-weight: lighter;
+}
+
+@keyframes listik_move {
+    25% {
+        transform: translateX(-.5rem);
+    }
+
+    50% {
+        transform: translateX(.5rem);
+    }
+
+    75% {
+        transform: translateX(0);
+    }
+
+
+}
