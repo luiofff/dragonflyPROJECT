@@ -190,26 +190,49 @@ a {
     margin-top: 20rem;
     width: 594px;
     height: 628px;
-    background-image: url(/assets/vodrisl1.svg);
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+
+    animation-name: listik_move;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+	animation-timing-function: linear;
+
+}
+
+.vodorosl1 {
+    transform: translateX(-100rem);
+    transition: .5s;
+}
+
+.vodorosl2 {
+    transform: translateX(100rem);
+    transition: .5s;
+}
+
+
+
+.second {
+    margin-top: 20rem;
+    width: 564px;
+    height: 628px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+
     animation-name: listik_move;
     animation-duration: 2s;
     animation-iteration-count: infinite;
 	animation-timing-function: linear;
 }
 
-.second {
-    margin-top: 20rem;
-    width: 594px;
-    height: 628px;
-    background-image: url(/assets/vodrisl2.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    animation-name: listik_move;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-	animation-timing-function: linear;
+.active{
+    transform: translateX(0);
 }
 
 .list {

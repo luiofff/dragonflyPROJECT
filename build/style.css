@@ -53,7 +53,7 @@ a {
 }
 
 .main_img_block {
-    width: 1370px;
+    width: 1270px;
     height: 650px;
     background-image: url(/assets/Group\ 2.svg);
     background-repeat: no-repeat;
@@ -96,9 +96,10 @@ a {
 }
 
 .s-block {
-    width: 959px;
-    height: 695px;
-   background-image: url(/assets/eye.png);
+    width: 949px;
+    height: 867px;
+   background-image: url(/assets//Group\ 14.png);
+   background-size: cover;
 }
 
 .s-content {

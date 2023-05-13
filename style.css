@@ -120,11 +120,58 @@ a {
 .vetk {
     position: absolute;
     width: 80rem;
-    margin-top: 150vh;
+    margin-top: 170vh;
     animation-name: listik_move;
     animation-duration: 5s;
     animation-iteration-count: infinite;
 	animation-timing-function: linear;
+}
+
+#oblako3 {
+    z-index: -1;
+    position: absolute;
+    margin-top: 96vh;
+    margin-left: 120vh;
+    animation-name: oblako_move;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+#oblako1 {
+    z-index: -1;
+    position: absolute;
+    margin-top: 130vh;
+    animation-name: oblako_move;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+#oblako2 {
+    z-index: -1;
+    position: absolute;
+    margin-top: 120vh;
+    margin-left: 85vh;
+    animation-name: oblako_move;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+
+@keyframes oblako_move {
+    15% {
+        transform: translateX(-2rem);
+    }
+
+    50% {
+        transform: translate(2rem);
+    }
+
+    75% {
+        transform: translate(0);
+    }
 }
 
 
