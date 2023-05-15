@@ -91,7 +91,7 @@ a {
 .water {
     width: 1440px;
     height: 339px;
-    background-image: url(/assets/Vector\ 2.svg);
+    background-image: url(/dragonflyPROJECT/assets/Vector\ 2.svg);
 }
 
 .listik1 {
@@ -140,7 +140,7 @@ a {
     margin-top: 100vh;
     height: 210vh;
     width: 100%;
-    background-image: url(/assets/Group\ 3\ \(1\).svg);
+    background-image: url(/dragonflyPROJECT/assets/Group\ 3\ \(1\).svg);
     background-size: cover;
 }
 
@@ -157,7 +157,7 @@ a {
 .img {
     width: 803px;
     height: 757px;
-    background-image: url(/assets/evol.svg);
+    background-image: url(/dragonflyPROJECT/assets/evol.svg);
     background-repeat: no-repeat;
 }
 
